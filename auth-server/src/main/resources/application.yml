@@ -1,0 +1,17 @@
+server:
+  port: 8080
+
+security:
+  oauth2:
+    resource:
+      filter-order: 3
+
+logging.level.org.springframework.security: DEBUG
+
+#spring:
+#  thymeleaf:
+#    mode: HTML
+#    encoding: UTF-8
+#    cache: false
+#    servlet:
+#      content-type: text/html
